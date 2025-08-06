@@ -14,16 +14,16 @@ interface Campaign {
 export function CampaignsSection() {
   const campaigns: Campaign[] = [
     {
-      brand: "Dave Vitamine Care",
-      description: "Campaña digital para productos de cuidado vitamínico",
+      brand: "DOVE",
+      description: "Campaña digital para Dove Vitamine Care",
       type: "Contenido para Redes Sociales",
       year: "2025",
       platforms: ["Instagram", "TikTok"],
       link: "https://www.instagram.com/p/DLoImqNpCop/"
     },
     {
-      brand: "Skip Argentina",
-      description: "Campaña digital para productos de limpieza",
+      brand: "SKIP",
+      description: "Campaña digital para Skip Ciclos Cortos",
       type: "Contenido para Redes Sociales", 
       year: "2025",
       platforms: ["Instagram", "TikTok"],
