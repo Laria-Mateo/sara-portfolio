@@ -1,8 +1,31 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import { Instagram, Video, Mail } from 'lucide-react'
+import { useState, useEffect } from 'react'
 
 export function Footer() {
+  const [showDeveloperCredit, setShowDeveloperCredit] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop
+      const windowHeight = window.innerHeight
+      const documentHeight = document.documentElement.scrollHeight
+      
+      // Mostrar el crédito solo cuando se llega al final y se sigue scrolleando
+      if (scrollTop + windowHeight >= documentHeight - 10) {
+        setShowDeveloperCredit(true)
+      } else {
+        setShowDeveloperCredit(false)
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
     <footer className="bg-pink-500 text-white py-12">
       <div className="max-w-6xl mx-auto px-4 text-center">
@@ -34,8 +57,18 @@ export function Footer() {
         <p className="text-pink-300 text-sm">
           © 2025 Sara Romanela Riso. Disponible para campañas publicitarias y colaboraciones.
         </p>
-        <p className="text-pink-200 text-xs mt-2">
-          Desarrollado por Mateo Laria - Técnico Universitario en Programación
+      </div>
+      
+      {/* Crédito del desarrollador - se despliega al final del scroll */}
+      <div 
+        className={`fixed bottom-0 right-0 p-2 pointer-events-none transition-all duration-300 ease-in-out ${
+          showDeveloperCredit 
+            ? 'translate-y-0 opacity-60' 
+            : 'translate-y-full opacity-0'
+        }`}
+      >
+        <p className="text-pink-200 text-xs">
+          Desarrollado por Mateo Laria
         </p>
       </div>
     </footer>
