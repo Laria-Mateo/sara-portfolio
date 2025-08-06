@@ -51,7 +51,8 @@ export function Header() {
                 <img
                   src="/images/sara-front.jpg"
                   alt="Sara Romanela Riso - Modelo y Creadora de Contenido"
-                  className="object-cover w-full h-full"
+                  className="object-cover object-center w-full h-full"
+                  style={{ objectPosition: 'center 30%' }}
                 />
               </div>
             </div>
