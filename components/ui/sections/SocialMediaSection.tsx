@@ -17,7 +17,7 @@ export function SocialMediaSection() {
     { 
       platform: "Instagram", 
       handle: "@saritariso", 
-      metric: "Engagement Rate Alto",
+      metric: "Alta Interacción",
       icon: Instagram,
       description: "Contenido de calidad",
       highlight: true,

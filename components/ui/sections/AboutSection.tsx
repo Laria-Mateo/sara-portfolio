@@ -13,7 +13,7 @@ export function AboutSection() {
         </CardHeader>
         <CardContent>
           <p className="text-lg text-gray-700 leading-relaxed text-center max-w-4xl mx-auto">
-            Mi nombre es Sara Riso, tengo 19 años. Actualmente me estoy formando en IAM. Desde muy chica, he encontrado en las artes escénicas mi verdadera pasión. Mi formación en teatro musical me ha dado las herramientas para expresarme naturalmente frente a cámara, lo que me permite conectar auténticamente con las audiencias en campañas publicitarias. Disfruto explorando diversos estilos y géneros, y mi meta es continuar creciendo como actriz publicitaria, manteniendo siempre mi identidad y compromiso con el arte escénico.
+            Mi nombre es Sara Riso, tengo 19 años. Actualmente me estoy formando en IAM. Desde muy chica, he encontrado en las artes escénicas mi verdadera pasión. Mi formación en teatro musical me ha dado las herramientas para expresarme naturalmente frente a cámara, lo que me permite conectar auténticamente con las audiencias en campañas publicitarias. Disfruto explorando diversos estilos y géneros, y mi meta es continuar creciendo como modelo publicitaria, manteniendo siempre mi identidad y compromiso con el arte escénico.
           </p>
         </CardContent>
       </Card>

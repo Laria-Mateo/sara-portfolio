@@ -3,8 +3,7 @@ import { Award } from 'lucide-react'
 
 export function SkillsSection() {
   const skills = [
-    "Actuación para comerciales",
-    "Modelaje",
+    "Campañas publicitarias",
     "Creación de contenido",
     "Presencia en cámara",
     "Redes sociales",

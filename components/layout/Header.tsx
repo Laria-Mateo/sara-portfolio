@@ -12,7 +12,7 @@ export function Header() {
               Sara Romanela Riso
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 font-light mb-4">
-              Estudiante de Teatro Musical en IAM & Actriz Publicitaria
+              Estudiante de Teatro Musical en IAM & Modelo Publicitaria
             </p>
             <p className="text-lg text-gray-600 mb-6">
               Me gusta hacer campañas publicitarias y contenido digital
@@ -54,7 +54,7 @@ export function Header() {
               <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl">
                 <img
                   src="/images/sara-front.jpg"
-                  alt="Sara Romanela Riso - Estudiante de Teatro Musical en IAM & Actriz Publicitaria"
+                  alt="Sara Romanela Riso - Estudiante de Teatro Musical en IAM & Modelo Publicitaria"
                   className="object-cover object-center w-full h-full"
                   style={{ objectPosition: 'center 30%' }}
                 />
