@@ -20,6 +20,7 @@ export function SocialMediaSection() {
       metric: "Engagement Rate Alto",
       icon: Instagram,
       description: "Contenido de calidad",
+      highlight: true,
       link: "https://www.instagram.com/saritariso/"
     },
     { 
