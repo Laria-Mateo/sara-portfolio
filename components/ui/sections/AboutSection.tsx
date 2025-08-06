@@ -13,10 +13,7 @@ export function AboutSection() {
         </CardHeader>
         <CardContent>
           <p className="text-lg text-gray-700 leading-relaxed text-center max-w-4xl mx-auto">
-            Soy Sara Riso, tengo 19 años y me especializo en campañas publicitarias y creación de contenido digital. 
-            Con experiencia en comerciales para televisión y redes sociales, he trabajado con marcas reconocidas como 
-            Dave Vitamine Care y Skip Argentina. Mi pasión por la actuación y mi presencia natural frente a cámara 
-            me permiten conectar auténticamente con las audiencias, creando contenido que resuena y genera engagement.
+            Mi nombre es Sara Riso, tengo 19 años. Actualmente me estoy formando en IAM. Desde muy chica, he encontrado en las artes escénicas mi verdadera pasión. Mi formación en teatro musical me ha dado las herramientas para expresarme naturalmente frente a cámara, lo que me permite conectar auténticamente con las audiencias en campañas publicitarias. Disfruto explorando diversos estilos y géneros, y mi meta es continuar creciendo como actriz publicitaria, manteniendo siempre mi identidad y compromiso con el arte escénico.
           </p>
         </CardContent>
       </Card>

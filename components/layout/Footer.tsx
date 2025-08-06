@@ -30,7 +30,7 @@ export function Footer() {
     <footer className="bg-pink-500 text-white py-12">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h3 className="text-2xl font-bold mb-4">Sara Romanela Riso</h3>
-        <p className="text-pink-200 mb-6">Modelo & Creadora de Contenido para Campañas Publicitarias</p>
+        <p className="text-pink-200 mb-6">Estudiante de Teatro Musical en IAM & Actriz Publicitaria</p>
         
         <div className="flex justify-center gap-6 mb-6">
           <a href="https://www.instagram.com/saritariso/" target="_blank" rel="noopener noreferrer">

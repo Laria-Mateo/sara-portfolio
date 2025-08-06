@@ -5,6 +5,7 @@ import { AboutSection } from "@/components/ui/sections/AboutSection"
 import { SocialMediaSection } from "@/components/ui/sections/SocialMediaSection"
 import { CampaignsSection } from "@/components/ui/sections/CampaignsSection"
 import { SkillsSection } from "@/components/ui/sections/SkillsSection"
+import { CertificationsSection } from "@/components/ui/sections/CertificationsSection"
 import { ContactSection } from "@/components/ui/sections/ContactSection"
 
 export function PortfolioView() {
@@ -17,6 +18,7 @@ export function PortfolioView() {
         <SocialMediaSection />
         <CampaignsSection />
         <SkillsSection />
+        <CertificationsSection />
         <ContactSection />
       </div>
 

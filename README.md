@@ -1,6 +1,6 @@
 # Sara Romanela Riso - Portfolio
 
-Portfolio profesional de Sara Romanela Riso, modelo y creadora de contenido.
+Portfolio profesional de Sara Romanela Riso, estudiante de teatro musical en IAM y creadora de contenido en redes sociales.
 
 ## Tecnologías
 

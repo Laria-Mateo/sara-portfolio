@@ -12,24 +12,28 @@ export function Header() {
               Sara Romanela Riso
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 font-light mb-4">
-              Modelo & Creadora de Contenido
+              Estudiante de Teatro Musical en IAM & Actriz Publicitaria
             </p>
             <p className="text-lg text-gray-600 mb-6">
-              Especializada en campañas publicitarias y contenido digital
+              Me gusta hacer campañas publicitarias y contenido digital
             </p>
             
             <div className="flex flex-wrap justify-center lg:justify-start gap-3 mb-8">
               <Badge className="bg-pink-200 text-pink-700 hover:bg-pink-300 px-4 py-2">
                 <Camera className="w-4 h-4 mr-2" />
-                Comerciales TV
+                Teatro Musical
               </Badge>
               <Badge className="bg-pink-200 text-pink-700 hover:bg-pink-300 px-4 py-2">
-                <Camera className="w-4 h-4 mr-2" />
-                Contenido Digital
+                <Video className="w-4 h-4 mr-2" />
+                Canto & Baile
               </Badge>
               <Badge className="bg-pink-200 text-pink-700 hover:bg-pink-300 px-4 py-2">
                 <Heart className="w-4 h-4 mr-2" />
-                Influencer
+                Actuación
+              </Badge>
+              <Badge className="bg-pink-200 text-pink-700 hover:bg-pink-300 px-4 py-2">
+                <Camera className="w-4 h-4 mr-2" />
+                Campañas Publicitarias
               </Badge>
             </div>
 
@@ -50,7 +54,7 @@ export function Header() {
               <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl">
                 <img
                   src="/images/sara-front.jpg"
-                  alt="Sara Romanela Riso - Modelo y Creadora de Contenido"
+                  alt="Sara Romanela Riso - Estudiante de Teatro Musical en IAM & Actriz Publicitaria"
                   className="object-cover object-center w-full h-full"
                   style={{ objectPosition: 'center 30%' }}
                 />
