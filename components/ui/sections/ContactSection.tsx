@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Mail, Phone, Instagram, MapPin } from 'lucide-react'
+import { Mail, Phone, Instagram, MapPin, MessageCircle } from 'lucide-react'
 
 export function ContactSection() {
   return (
@@ -38,9 +38,15 @@ export function ContactSection() {
           
           <div className="mt-8 text-center">
             <p className="text-gray-700 mb-4">¿Interesado en trabajar conmigo?</p>
-            <Button size="lg" className="bg-pink-500 hover:bg-pink-600 text-white">
-              Solicitar Cotización
-            </Button>
+            <a 
+              href="https://wa.me/5493434525560?text=Hola%20Sara!%20Me%20interesa%20trabajar%20contigo%20para%20una%20campaña%20publicitaria.%20¿Podrías%20brindarme%20más%20información?"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button size="lg" className="bg-pink-500 hover:bg-pink-600 text-white">
+                Solicitar Cotización
+              </Button>
+            </a>
           </div>
         </CardContent>
       </Card>
